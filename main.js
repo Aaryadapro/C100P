@@ -62,7 +62,7 @@ function takeSnapshot()
 {
     console.log(img_id);
 
-    webcam.snap(function(data_uri){
+    Webcam.snap(function(data_uri){
         if(img_id=="selfie1")
         {
             document.getElementById("result1").innerHTML = '<img id="selfie1" src="'+data_uri+'"/>';
