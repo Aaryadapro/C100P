@@ -1,3 +1,5 @@
+speak_data = ";
+
 setTimeout(function(){
     img_id = "result1";
     takeSnapshot();
